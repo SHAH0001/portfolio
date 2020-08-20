@@ -1,0 +1,142 @@
+@media screen and (max-width: 850px) {
+
+    .portfolio-skills {
+        border-bottom: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio-skills a:first-child {
+        margin: 0;
+        border-top: 1px solid #cccccc;
+    }
+
+    .portfolio-skills-link {
+        margin: 0;
+        border-bottom: 1px solid #cccccc;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        padding: 10px 0 10px 10px;
+    }
+
+    .first:hover::before,
+    .second:hover::before,
+    .third:hover::before,
+    .fourth:hover::before {
+        display: none;
+    }
+
+    .contacts-left-block-button {
+        margin: 4% 0 0 0;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .contacts-left-block::after {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 660px) {
+
+    .contacts {
+        flex-direction: column;
+    }
+
+    .contacts-left-block,
+    .contacts-right-block,
+    .contacts-left-block-input,
+    .contacts-left-block-textarea,
+    .contacts-left-block-button {
+        width: 100%;
+    }
+
+    .contacts-right-block {
+        margin: 8% 0 0 1%;
+    }
+
+    .contacts-left-block-textarea,
+    .contacts-left-block-button {
+        margin: 5% 0 0 0;
+    }
+
+    .contacts-left-block-button {
+        padding: 12px 0;
+    }
+
+    .contacts-items {
+        margin: 0;
+    }
+
+    .contacts-item {
+        display: flex;
+        align-items: center;
+        margin: 0 0 6% 0;
+    }
+
+    .contacts-item-info-title {
+        margin: 0 0 4% 0;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .top-block-title {
+        font-size: 35px;
+    }
+
+    .top-block-description {
+        padding: 15px 10% 0 10%;
+    }
+
+}
+
+@media screen and (max-width: 476px) {
+
+    .portfolio-item {
+        width: 100%;
+    }
+
+    .portfolio-item-title {
+        font-size: 25px;
+    }
+
+    .portfolio-item-description {
+        font-size: 17px;
+    }
+
+    .portfolio-item-link {
+        font-size: 15px;
+    }
+
+    .portfolio-item-link::before {
+        width: 95px;
+    }
+
+    .contacts-item {
+        margin: 0 0 10% 0;
+        padding: 0 0 5% 0;
+        border-bottom: 1px solid #cccccc;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+
+    .top-block-title {
+        padding: 20% 0 0 0;
+    }
+
+    .portfolio-skills {
+        margin: 10% 0 0 0;
+    }
+
+    .contacts-right-block {
+        margin: 10% 0 0 1%;
+    }
+
+}
